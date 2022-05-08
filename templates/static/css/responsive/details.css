@@ -1,0 +1,167 @@
+@media (max-width: 575.98px) {
+    .img img {
+        width: 68%;
+        margin-top: 20px;
+    }
+
+
+    .ProdutoBox {
+        text-align: center;
+    }
+
+    .ProdutoVariacao {
+        margin: 30px 0px;
+    }
+
+    .ProdutoVariacao .tmn {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .PriceButton .button {
+        justify-content: center;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .img img {
+        width: 60%;
+        margin-top: 20px;
+
+    }
+
+
+    .ProdutoBox {
+        text-align: center;
+    }
+
+    .ProdutoVariacao {
+        margin: 30px 0px;
+    }
+
+    .ProdutoVariacao .tmn {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .PriceButton .button {
+        justify-content: center;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .img img {
+        width: 80%;
+    }
+
+    .boximg {
+        align-items: center;
+    }
+
+
+
+    .img2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ProdutoBox {
+        text-align: center;
+    }
+
+    .ProdutoVariacao {
+        margin: 30px 0px;
+    }
+
+    .ProdutoVariacao .tmn {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .PriceButton .button {
+        justify-content: center;
+    }
+
+    .pdt2 {
+        height: 89%;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .pdt2 {
+        height: 89%;
+    }
+
+    .ProdutoBox .ProdutoInfo p {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .ProdutoBox .ProdutoInfo h2 {
+        font-size: 1.7em;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .img img {
+        width: 88%;
+    }
+
+    .img2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .pdt2 {
+        height: 89%;
+    }
+
+    .ProdutoBox .ProdutoInfo p {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .ProdutoBox .ProdutoInfo h2 {
+        font-size: 2.65em;
+    }
+
+    .ProdutoVariacao .tmn button {
+        width: 35px;
+        height: 35px;
+        font-size: 1em;
+    }
+
+    .ProdutoVariacao h6 {
+        font-size: 1.6em;
+    }
+
+    .ProdutoVariacao {
+        margin: 40px 0px;
+    }
+}
+
+.ProdutoBox .ProdutoInfo p {
+    font-weight: 600;
+}

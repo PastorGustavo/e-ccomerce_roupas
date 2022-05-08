@@ -1,0 +1,176 @@
+small {
+    display: none;
+}
+
+@media (max-width: 575.98px) {
+    .LogBox {
+        flex-direction: column;
+        display: flex;
+    }
+
+    small {
+        margin-top: 16px;
+        display: block;
+        font-weight: 600;
+        color: whitesmoke;
+    }
+
+    .mensagem {
+        display: none;
+    }
+
+    #cdt {
+        margin-top: 30px;
+        display: inline-block;
+
+        background-color: unset;
+        padding: 6px 12px;
+        font-weight: 600;
+        border: 1px solid whitesmoke;
+        color: whitesmoke;
+        border-radius: 6px;
+    }
+
+    .Form {
+        position: static;
+        flex-direction: column;
+        padding: 0px;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .FormRight {
+        left: 0%;
+    }
+
+    .LogBox {
+        justify-content: center;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .Form {
+        padding: 0px;
+        width: 50%;
+    }
+
+    .mensagem {
+        width: 50%;
+    }
+
+    .bg-yellow-right {
+        left: 50%;
+    }
+
+    .FormRight {
+        left: 50%;
+    }
+
+    .RegisterWelcome {
+        padding: 2px;
+    }
+
+    .register {
+        margin: 0px;
+    }
+
+    .LogWelcome {
+        padding: 2px;
+    }
+
+    .text2 h3 {
+        font-size: 1.6em;
+    }
+
+    .text2 p {
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    .Form h2 {
+        font-size: 1.7em;
+    }
+
+    .Form div form input {
+        font-size: 0.8em;
+        font-weight: 600;
+        color: black;
+
+        width: 90%;
+        margin: 10px auto;
+
+    }
+
+    .Form div form button {}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .Form {
+        padding: 0px;
+        width: 50%;
+    }
+
+    .mensagem {
+        width: 50%;
+    }
+
+    .bg-yellow-right {
+        left: 50%;
+    }
+
+    .FormRight {
+        left: 50%;
+    }
+
+    .RegisterWelcome {
+        padding: 2px;
+    }
+
+    .register {
+        margin: 0px;
+    }
+
+    .LogWelcome {
+        padding: 2px;
+    }
+
+    .text2 h3 {
+        font-size: 1.6em;
+    }
+
+    .text2 p {
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    .Form h2 {
+        font-size: 1.7em;
+    }
+
+    .Form div form input {
+        font-size: 0.8em;
+        font-weight: 600;
+        color: black;
+
+        width: 90%;
+        margin: 10px auto;
+
+    }
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+
+@media (min-width: 1200px) {}

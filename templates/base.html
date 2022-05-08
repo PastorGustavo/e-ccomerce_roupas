@@ -1,0 +1,113 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}{% endblock title %}
+    </title>
+
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap4/css/bootstrap.min.css'%}">
+
+    <!--Fontawesome link-->
+    <link rel="stylesheet" href="{% static 'vendor/fontawesome/css/all.min.css'%}">
+    <!--Fontawesome link-->
+
+    <!--Iconic link-->
+    <link rel="stylesheet" href="{% static 'vendor/iconic/font/css/open-iconic-bootstrap.css'%}">
+    <!--Iconic link-->
+
+    <!--Normalize link-->
+    <link rel="stylesheet" href="{% static 'vendor/normalize.css'%}">
+    <!--Normalize link-->
+
+    <!--Html5Shiv-->
+    <!--[if lt IE 9]>
+    <script src="../vendor/html5shiv.js"></script>
+    <![endif]-->
+    <!--Html5Shiv-->
+
+    <!--Css link-->
+    {% block 'css' %}
+    {% endblock 'css' %}
+    <!--Css link-->
+
+    <!--imagem que fica na aba-->
+    <!--<link rel="icon" href="imagens/favicon.png">-->
+    <!--imagem que fica na aba-->
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark " id="nav">
+
+        <!--Logo Empresa-->
+        <span class="navbar-brand ml-3"><a href="{%url 'produto:produtos'%}">TeamSports</a></span>
+
+        <!--Menu hamburg-->
+        <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Menu opcoes-->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="ml-auto navbar-nav mr-4">
+
+                <!--Produtos-->
+                <li class="nav-item ">
+                    <a href="../perfil/dados.html" class="nav-link text-light font-weight-bold">Dados</a>
+                </li>
+                <!--Produtos-->
+
+                <!--Produtos-->
+                <li class="nav-item ">
+                    <a href="{%url 'produto:produtos'%}" class="nav-link text-light font-weight-bold">Produtos</a>
+                </li>
+                <!--Produtos-->
+
+                <!--Botão de login-->
+                <li class="nav-item ">
+                    <a href="" class="nav-link text-light  font-weight-bold">Login</a>
+                </li>
+                <!--Botão de login-->
+
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!--Block conteudo-->
+    {% block 'conteudo' %}
+
+    
+    {% endblock  %}
+    <!--Block conteudo-->
+
+    
+    
+
+
+
+    <!--font aesome-->
+    <script src="https://kit.fontawesome.com/39f54a59c4.js" crossorigin="anonymous"></script>
+
+    <!--bootstrap
+    /*********************************************-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+    <script src="{% static 'vendor/bootstrap4/js/bootstrap.min.js' %}"></script>
+
+</body>
+
+</html>

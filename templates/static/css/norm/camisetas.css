@@ -1,0 +1,434 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: unset;
+    outline: unset;
+    text-decoration: unset;
+
+}
+
+body {
+    background: #050505;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Formatando os produtos*/
+.BoxProdutos {
+    /*Formatando como os produtos vão ser organizados*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.produtos {
+    position: relative;
+    display: flex;
+
+    /*Como a caixa vai ser*/
+    overflow: hidden;
+
+    width: 30%;
+    margin: 5px;
+    height: 295px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /*Como a caixa vai ser*/
+
+    text-align: center;
+
+    background-color: #22252A;
+    color: white;
+    font-size: 0.82em;
+
+}
+
+
+.produtos img {
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+
+
+
+#nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.468);
+}
+
+
+
+
+
+
+
+
+/*Formatação do menu lateral*/
+.aside {
+    padding-top: 18px;
+    background-color: #22252A;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-left: 20px;
+    color: whitesmoke;
+}
+
+.CategoBox h4 {
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+.titulocatego {
+    padding: 4px;
+    position: relative;
+    width: 70%;
+
+    border-radius: 5px;
+    transition: 0.4s;
+    transition-delay: 0.5s, 250ms;
+}
+
+.CategoLateral i {
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.711);
+    position: absolute;
+    right: 6px;
+    opacity: 0.7;
+    font-size: 0.6em;
+    border-radius: 50%;
+    padding: 6px 8px;
+    background-color: rgba(240, 248, 255, 0.384);
+}
+
+.CategoLateral a {
+    color: white;
+    text-decoration: unset;
+    font-size: 1em;
+    font-weight: 600;
+    outline: unset;
+    margin-bottom: 5px;
+}
+
+.CategoLateral ul {
+    color: rgb(199, 199, 199);
+    margin-top: 6px;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+
+.CategoLateral ul li::before {
+    position: absolute;
+    right: 0;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: #0a6aa5c9;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.CategoLateral ul li:hover::before {
+    width: 100%;
+
+
+}
+
+
+.CategoLateral ul li {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 2px;
+    border-radius: 6px;
+    margin: 4px 0px;
+    width: 80%;
+}
+
+/*Animação*/
+.CategoLateral ul {
+    /*Esse faz o aparecer das categorias*/
+    overflow: hidden;
+    height: 0px;
+    transition: 0.5s;
+}
+
+.CategoLateral:hover ul {
+    /*Esse faz o aparecer das categorias*/
+    height: 140px;
+}
+
+
+
+
+.catego-escond {
+    /*Esse faz aparecer o nome das categorias*/
+    position: absolute;
+    right: -110px;
+    opacity: 0;
+    transition: 1s;
+    color: whitesmoke;
+}
+
+.CategoLateral ul li:hover .catego-escond {
+    /*Esse faz aparecer o nome das categorias*/
+    right: 20px;
+    transition: 1s;
+    opacity: 1;
+
+
+}
+
+/*Animação*/
+
+
+
+
+
+
+
+
+/*Formatando campo de busca*/
+.BuscaBox {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.busc {
+    margin-top: 10px;
+}
+
+.BuscaBox input {
+    outline: unset;
+
+    padding: 7px 0px;
+    text-indent: 12px;
+    letter-spacing: 1px;
+
+    font-size: 0.9em;
+    font-weight: 400;
+
+    border: unset;
+    border-radius: 6px;
+}
+
+.BuscaBox button {
+    cursor: pointer;
+    border: unset;
+    background-color: unset;
+    outline: unset;
+}
+
+.BuscaBox i {
+    border-radius: 8px;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+}
+
+
+
+
+
+
+
+.PriceBox input {
+    margin: 5px 0px;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+.carousel {
+    background-color: #22252A;
+    margin-bottom: 30px;
+
+}
+
+.text-categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+#Catego {
+    font-size: 1.2em;
+    color: #F2AA1D;
+    text-shadow: 0 0 10px rgb(2, 2, 2);
+}
+
+.yellow {
+    color: #F2AA1D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Animações*/
+.produtos::before {
+    position: absolute;
+    background-color: rgba(4, 54, 121, 0.899);
+
+    width: 0%;
+    right: 0;
+    height: 100%;
+
+    /*Transição*/
+    transition: 0.8s;
+    transition-delay: 0.4s, 250ms;
+
+    content: '';
+}
+
+.produtos:hover::before {
+    width: 100%;
+    transition-delay: 0s, 0ms;
+}
+
+.produto-info {
+    margin-top: 12px;
+}
+
+.promo {
+    color: rgb(175, 175, 175);
+    margin-left: 6px;
+    font-size: 0.9em;
+    text-decoration: line-through;
+}
+
+.produto-info-escondido {
+    position: absolute;
+    right: -260px;
+    /*Formatando a caixa*/
+    padding: 30px;
+    padding-left: 36px;
+    width: 100%;
+    height: 100%;
+    /*Formatando a caixa*/
+
+    /*Formatando como o conteudo da caixa irá ficar*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*Formatando como o conteudo da caixa irá ficar*/
+
+    transition: 0.6s;
+    text-align: start;
+}
+
+.produto-info-escondido p {
+    margin: 0px;
+}
+
+.produto-info-escondido .payments {
+    display: flex;
+
+}
+
+
+.buy {
+    /*Cor caixa*/
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+    /*Cor caixa*/
+
+    /*Fonte*/
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+    font-size: 0.9em;
+    /*Fonte*/
+
+    /*Caixa*/
+    padding: 4px 18px;
+    border-radius: 14px;
+    margin-right: 40px;
+    /**/
+
+    /*Flex-box*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Flex-box*/
+
+}
+
+
+.save {
+    font-size: 0.9em;
+    padding: 8px 11px;
+    background-color: rgba(71, 71, 71, 0.521);
+    border-radius: 50%;
+}
+
+.produtos:hover .produto-info-escondido {
+    transition-delay: 0.6s, 250ms;
+    right: 0;
+    opacity: 1;
+}

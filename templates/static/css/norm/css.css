@@ -1,0 +1,193 @@
+/*Andale Mono, monospace*/
+*,
+h1 {
+    padding: 0px;
+    margin: 0px;
+    /* Color Theme Swatches in Hex */
+
+}
+
+body {
+
+    background: black;
+
+}
+
+.welcome {
+    height: 380px;
+
+}
+
+/*Formatação das vantages*/
+.BoxVtg {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.VtgItem {
+    position: relative;
+    margin: 0px 20px;
+    padding: 20px;
+    width: 280px;
+    height: 250px;
+    background: whitesmoke;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+.VtgItem i {
+    font-size: 20px;
+    background-color: rgb(61, 61, 61);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.VtgItem p {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.VtgTitle {
+    padding-top: 90px;
+    color: white;
+
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.VtgTitle p {
+    margin-top: 6px;
+    font-size: 0.65em;
+}
+
+
+
+
+
+
+/*Produtos*/
+
+#produtos {
+    height: 500px;
+    background: linear-gradient(rgb(0, 0, 0), rgba(180, 1, 40, 0.4), rgba(100, 1, 1, 1)), url('../img/futebol.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+#produtos h1 {
+    color: white;
+    margin-top: 160px;
+    font-size: 5em;
+}
+
+.produtos-caixa {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.produtos-caixa div button {
+    margin-top: 70px;
+}
+
+.produtos-caixa div i {
+    font-size: 18px;
+    padding: 18px;
+    margin-bottom: 20px;
+    background-color: rgba(58, 58, 58, 0.555);
+    border-radius: 50%;
+}
+
+
+.produtos-caixa div {
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+/*Produtos*/
+
+
+
+
+
+
+
+
+
+.camiseta {
+    background: linear-gradient(rgba(145, 162, 255, 0.2), rgba(10, 0, 143, 0.8)), url('../img/camisa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.shorts {
+    background: linear-gradient(rgba(0, 146, 146, 0.4), rgba(7, 80, 0, 0.8)), url('../img/short.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.suporte {
+    background: linear-gradient(rgba(0, 146, 32, 0.548), rgba(0, 14, 94, 0.8)), url('../img/suport.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.desconto {
+    background: linear-gradient(rgba(38, 5, 116, 0.548), rgba(134, 1, 63, 0.8)), url('../img/doll.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.payments {
+    background: linear-gradient(rgba(209, 118, 0, 0.6), rgba(0, 6, 95, 0.9)), url('../img/bitcoin.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.bg-purple {
+
+    background: linear-gradient(rgba(75, 0, 145, 0.5), rgba(0, 0, 0, 1)), url('../img/noit.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue rgb(0, 0, 0);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+
+    background-position: center;
+    background-size: cover;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(8, 1, 110, 0.582);
+    border-radius: 20px;
+}

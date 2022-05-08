@@ -1,0 +1,289 @@
+body,
+html {
+    height: 90%;
+    background-color: rgb(17, 17, 17);
+
+}
+
+
+.LogBox {
+    position: relative;
+    background-color: #333333;
+    border-radius: 10px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+}
+
+.LogBox .height {
+    height: 100%;
+}
+
+#cdt {
+    display: none;
+}
+
+
+.Form {
+    background-color: #333333;
+    padding: 18px 160px;
+
+    width: 60%;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 3s;
+    transition-delay: 0.5s, 250ms;
+
+
+
+    position: absolute;
+    z-index: 1;
+
+}
+
+/*Essa classe vai fazer o Form andar para <*/
+.FormLeft {
+    left: 0
+}
+
+.FormRight {
+    /*left: 16%;*/
+    left: 40%;
+}
+
+
+
+.Form h2 {
+    font-size: 2.8em;
+    color: aliceblue;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.Form div form {
+
+    text-align: center;
+}
+
+.Form div form input {
+    width: 100%;
+    margin: 10px 0px;
+
+    padding: 8px;
+    border-radius: 8px;
+
+    outline: unset;
+    display: block;
+    border: unset;
+
+    background-color: #d3d3d3;
+}
+
+.Form div form button {
+
+    padding: 10px 28px;
+    border-radius: 16px;
+    margin-top: 20px;
+
+    outline: unset;
+    border: unset;
+
+    background-color: #2a6075;
+}
+
+
+/*animacao*/
+
+.registerNorm {
+    display: none;
+}
+
+/*animacao*/
+
+.registerAnima {
+    display: block;
+
+}
+
+.registerTextNorm {
+    display: none;
+}
+
+
+
+.container-fluid {
+    height: 100%;
+    padding: 0px 28px;
+}
+
+
+.mensagem {
+    background: linear-gradient(rgba(207, 142, 0, 0.9), rgba(207, 142, 0, 0.9)), url('../img/joj.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 40%;
+    z-index: 2;
+    transition: 3s;
+    transition-delay: 0.5s, 250ms;
+    position: absolute;
+
+}
+
+.bg-yellow-left {
+    left: 0;
+}
+
+.bg-yellow-right {
+    transition-delay: 0.5s, 250ms;
+    left: 0;
+    left: 60%;
+    animation: engordar 2.4s ease-in 0.6s;
+
+}
+
+
+
+
+
+
+.LogWelcome,
+.RegisterWelcome {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 80px;
+
+    transition: 1.2s;
+
+}
+
+.LogBox .RegisterWelcome {
+    z-index: 1;
+
+}
+
+
+.RegisterWelcomeAparecer {
+
+    left: 0px;
+    opacity: 1;
+    padding: 0px 80px;
+    transition-delay: 2.5s, 250ms;
+}
+
+
+.RegisterWelcome-Sumir {
+    transition-delay: 0s, 250ms;
+
+    left: -200px;
+    opacity: 0;
+}
+
+
+.LogWelcome {
+
+    background-color: unset;
+    transition: 1.2s;
+
+}
+
+.LogWelcomeAparecer {
+    right: -200px;
+    opacity: 0;
+
+}
+
+.LogWelcomeSumir {
+    transition-delay: 2.4s, 250ms;
+    opacity: 1;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.Caixas {
+    color: white;
+}
+
+.Caixas button {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+
+    padding: 10px 16px;
+    border: unset;
+    background-color: unset;
+    border-radius: 20px;
+    margin-top: 12px;
+    border: 1px solid whitesmoke;
+
+    cursor: pointer;
+}
+
+
+
+.Caixas h3 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-size: 2.4em;
+    margin: 20px 0px 30px;
+}
+
+.Caixas p {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes engordar {
+
+
+
+
+    20% {
+        width: 55%;
+    }
+
+
+
+
+
+}

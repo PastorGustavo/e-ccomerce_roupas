@@ -1,0 +1,218 @@
+@media (max-width: 575.98px) {
+    .resumo {
+        margin-top: 50px;
+    }
+
+    .right .price {
+        margin: 0px;
+        font-size: 0.92em;
+    }
+
+    .right {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .right .qtd {
+        width: auto;
+    }
+
+    .right .qtd button {
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 0.8em;
+    }
+
+    .right .qtd input {
+        font-size: 0.8em;
+
+        width: 20px;
+        height: 20px;
+    }
+
+    .left {
+
+        width: 70%;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .info {
+        font-size: 0.75em;
+    }
+
+
+    .left .img {
+        width: 70px;
+        margin: 0px;
+        margin-right: 10px;
+    }
+
+    .left .img img {
+        width: 100%;
+    }
+
+    .item {
+        height: 140px;
+        padding: 10px 16px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .resumo {
+        margin-top: 50px;
+    }
+
+    .right .price {
+        margin: 0px;
+        font-size: 0.8em;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    .right .qtd button {
+        width: 25px;
+        height: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1em;
+    }
+
+    .right .qtd input {
+        font-size: 1em;
+
+        width: 25px;
+        height: 25px;
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    .info {
+        font-size: 1em;
+    }
+
+
+    .left .img {
+        width: 26%;
+        margin: 0px;
+        margin-right: 10px;
+    }
+
+    .left .img img {
+        width: 100%;
+    }
+
+    .item {
+        height: 120px;
+        padding: 0px 4px;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .resumo {
+        padding: 18px 6px;
+    }
+
+    .resumo h3 {
+        font-size: 1.2em;
+    }
+
+    .right .price {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .right .qtd button {
+        width: 25px;
+        height: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1em;
+    }
+
+    .right .qtd input {
+        font-size: 1em;
+
+        width: 25px;
+        height: 25px;
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    .info {
+        font-size: 1em;
+    }
+
+
+    .left .img {
+        width: 26%;
+        margin: 0px;
+        margin-right: 10px;
+    }
+
+    .left .img img {
+        width: 100%;
+    }
+
+    .item {
+        height: 120px;
+        padding: 0px 4px;
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .resumo h3 {
+        font-size: 1.5em;
+    }
+
+    .right {
+        width: 60%;
+    }
+
+    .left {
+        width: 40%;
+    }
+}
+
+
+
+@media (min-width: 1200px) and (max-width:100px) {}
+
+@media (min-width: 1200px) and (max-width:1800px) {}

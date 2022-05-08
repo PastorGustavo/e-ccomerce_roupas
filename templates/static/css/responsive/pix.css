@@ -1,0 +1,29 @@
+@media (min-width: 1700px) {
+
+    .title h3 {
+        font-size: 6em;
+    }
+
+    .title h5 {
+        font-size: 1.6em;
+    }
+
+
+
+    .pix input {
+        font-size: 2em;
+        width: 60%;
+        height: 60px;
+        background-color: rgb(223, 223, 223);
+    }
+
+    .pix button {
+
+        border-radius: 8px;
+
+        font-size: 1.2em;
+
+        width: 15%;
+        height: 60px;
+    }
+}

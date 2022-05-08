@@ -1,0 +1,96 @@
+body,
+html {
+    height: 100%;
+}
+
+nav a {
+    color: rgb(228, 228, 228);
+}
+
+NAV {
+    background-color: rgb(24, 24, 24);
+}
+
+body {
+    background-color: #222222;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.PaymentBox h1 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+
+}
+
+.PaymentBox {
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid;
+    border-radius: 14px;
+    padding-top: 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aliceblue;
+    width: 50%;
+    border: unset;
+    box-shadow: 1px 1px 10px black;
+
+
+}
+
+
+.PaymentBox i {
+    padding: 0 12px;
+}
+
+.PaymentBox div.h {
+    padding: 26px 0px;
+    border-top: 1px solid rgb(175, 175, 175);
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.step {
+    background-color: rgb(30, 83, 119);
+    width: 100%;
+    text-align: center;
+
+    border-radius: 0px 0px 10px 10px;
+    padding: 22px 0px;
+
+    color: whitesmoke;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    font-size: 0.88em;
+}
+
+.points .dark {
+    color: rgba(97, 97, 97, 0.719);
+}
+
+.points {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 4em;
+    color: rgba(206, 206, 206, 0.74);
+
+    margin-top: -110px;
+    margin-bottom: 20px;
+
+}
+
+.titulo {
+    margin: 50px;
+}

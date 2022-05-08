@@ -1,0 +1,145 @@
+@media (max-width: 575.98px) {
+
+    .PaymentBox {
+        width: 94%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    .titulo {
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .titulo h1 {
+        font-size: 1.05em;
+        font-weight: 620;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+    }
+
+    .h a {
+        font-size: 0.9em;
+    }
+
+    .h a i {
+        font-size: 0.8em;
+    }
+
+    .points {
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .PaymentBox {
+        width: 94%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    .titulo {
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .titulo h1 {
+        font-size: 1.05em;
+        font-weight: 620;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+    }
+
+    .h a {
+        font-size: 0.9em;
+    }
+
+    .h a i {
+        font-size: 0.8em;
+    }
+
+    .points {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .PaymentBox {
+        width: 94%;
+        margin: 0px auto;
+        margin-top: 20px;
+
+    }
+
+    .PaymentBox div {
+        padding: 10px;
+    }
+
+    .titulo {
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .points {
+        display: none;
+    }
+
+    .step {
+        padding: 800px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 70px;
+    }
+
+
+
+}
+
+
+
+@media (min-width: 1700px) {
+    .PaymentBox {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .PaymentBox .h {
+        height: 160px;
+        font-size: 1.5em;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .points {
+        display: none;
+    }
+
+    .titulo h1 {
+        font-size: 2em;
+        font-weight: 620;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+    }
+
+    .step {
+        padding: 60px;
+        font-size: 1.7em;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}

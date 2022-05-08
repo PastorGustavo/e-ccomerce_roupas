@@ -1,0 +1,208 @@
+body,
+html {
+    height: 100%;
+}
+
+
+
+.MenuDash {
+    color: white;
+
+    background-color: #023059;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+
+}
+
+.MenuDash ul {
+    text-indent: 20%;
+    margin-top: 30px;
+    padding: 0px;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+.MenuDash ul li {
+    padding: 16px 0px;
+    font-weight: 600;
+    list-style: none;
+
+    transition: 0.6s;
+
+}
+
+.MenuDash ul li:hover {
+    background-color: #F4F4F4;
+    color: rgb(27, 27, 27);
+    border-radius: 60px 0px 0px 60px;
+}
+
+.MenuDash a {
+    color: unset;
+}
+
+
+
+.info {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.info h3 {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    letter-spacing: -1px;
+    font-size: 1.2em;
+}
+
+.info img {
+    background-color: rgb(255, 123, 0);
+    width: 70%;
+    margin: 0px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.info h6 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.produtos-comprados {
+
+    background-color: #F4F4F4;
+    height: 100%;
+    padding: 0px 6px;
+}
+
+.Title-dash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 18px 36px;
+    background-color: #F4F4F4;
+}
+
+.Title-dash .opcs {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Title-dash h5 {
+    margin-right: 10px;
+    font-size: 0.78em;
+    font-weight: 700;
+    color: #727272;
+
+    transition: 0.3s;
+    height: 16.5px;
+
+}
+
+.Title-dash h5:hover {
+    color: black;
+    border-bottom: 1px solid rgb(51, 51, 199);
+}
+
+
+
+
+
+
+
+
+/*Informaçõs sobre a caixa de compras*/
+.Compra2 {
+    color: #333333;
+    background-color: #d3d3d3;
+    font-size: 0.8em;
+
+    border-radius: 6px;
+    padding: 10px 0px;
+    font-weight: 600;
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+/*Caixa de compras*/
+.CompraBox .CompraItem {
+    position: static;
+    z-index: 0;
+
+    border-radius: 12px;
+    border: 1px solid rgba(53, 53, 53, 0.349);
+
+    background-color: #F4F4F4;
+    margin-top: 10px;
+
+    color: rgb(22, 22, 22);
+
+
+    display: flex;
+    padding: 14px 0px;
+    font-size: 0.8em;
+    font-weight: 600;
+    justify-content: space-around;
+
+    transition: 0.2s;
+}
+
+/*Animação do bg da caixa de compra*/
+.CompraItem:hover {
+    box-shadow: 0 5px 60px rgba(0, 0, 0, 0.881);
+    color: #F4F4F4;
+    position: relative;
+    z-index: 10;
+    background-color: #094aa0da;
+}
+
+.ItemName {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+.col-2,
+.col-10 {
+    padding: 0px;
+}
+
+.col-1,
+.col-11 {
+    padding: 0px;
+}
+
+
+
+.aprovado {
+    color: #02733E;
+    font-weight: 600;
+}
+
+.CompraItem:hover .aprovado {
+    color: rgb(3, 185, 100);
+}
+
+.reprovado {
+    font-weight: 600;
+
+    color: #D40D12;
+
+}

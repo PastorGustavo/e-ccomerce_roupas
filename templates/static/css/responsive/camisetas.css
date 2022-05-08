@@ -1,0 +1,1069 @@
+.CategoTitle button {
+    display: none;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 499.98px) {
+    .carousel {
+        padding: 80px 10px;
+    }
+
+    .text-categoria {
+        padding: 60px 40px;
+
+    }
+
+    .text-categoria h1 {
+        margin-bottom: 30px;
+        font-size: 1em;
+    }
+
+    .text-categoria h6 {
+        margin-bottom: 30px;
+        font-size: 0.9em;
+    }
+
+    .img-text img {
+        display: none;
+    }
+
+    .CategoBox h4,
+    .BuscaBox h4 {
+        font-size: 1.05em;
+    }
+
+    .aside {
+
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .BuscaBox {
+        text-align: center;
+    }
+
+    .BuscaBox input {
+        padding: 5px 0px;
+        font-size: 0.65em;
+        font-weight: 600;
+    }
+
+    .BuscaBox button {
+        font-size: 0.7em;
+        padding: 2px;
+    }
+
+    .BuscaBox {
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+    }
+
+    hr {
+        margin: 8px 0px;
+    }
+
+
+    .CategoTitle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .CategoTitle button {
+        cursor: pointer;
+
+        margin-right: 80px;
+        padding: 2px 1px;
+
+        width: 7%;
+        height: 12%;
+        border-radius: 50%;
+        outline: unset;
+
+        border: unset;
+        background-color: rgba(231, 231, 231, 0.418);
+        color: aliceblue;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CategoTitle span {
+
+        font-weight: 600;
+    }
+
+    .CategoBox h4 {
+        margin: 0px;
+        width: 0px;
+    }
+
+    .CategoBox .peq2 {
+        height: auto;
+        transition: 0.8s;
+        overflow: hidden;
+
+    }
+
+    .CategoBox .peq {
+        transition: 0.8s;
+
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .CategoBox h4,
+    .BuscaBox h4 {
+        font-size: 1.1em;
+    }
+
+    .aside {
+
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .BuscaBox {
+        text-align: center;
+    }
+
+    .BuscaBox input {
+        padding: 5px 0px;
+        font-size: 0.65em;
+        font-weight: 600;
+    }
+
+    .BuscaBox button {
+        font-size: 0.7em;
+        padding: 2px;
+    }
+
+    .BuscaBox {
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+    }
+
+    hr {
+        margin: 8px 0px;
+    }
+
+    .produtos .produto-info p {
+        font-size: 0.85em;
+        font-weight: 600;
+    }
+
+    .produtos .produto-info h5 {
+        font-size: 1.2em;
+    }
+
+
+    .produtos img {
+        margin-bottom: 10px;
+        width: 96%;
+    }
+
+    .produtos {
+        margin: 0px 1.75px 6px 1.75px;
+        height: 205px;
+        width: 32%;
+
+    }
+
+    .col-12 {
+        padding: 0px;
+    }
+
+    .produto-info-escondido {
+        padding: 12px 6px;
+    }
+
+    .produto-info-escondido h6 {
+        font-size: 0.9em;
+    }
+
+    .payments .buy {
+        height: 50%;
+        padding: 8px 0px;
+        margin: 0px;
+
+
+        font-size: 0.62em;
+        font-weight: 720;
+        text-transform: uppercase;
+
+    }
+
+    .payments {
+        flex-direction: column;
+    }
+
+    .buy a {
+        margin: 0px;
+        margin: 0px 6px;
+    }
+
+    .save {
+        font-size: 0.7em;
+
+        margin: auto;
+        height: 60%;
+        width: 80px;
+        margin-top: 8px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 8px;
+        padding: 0px;
+
+    }
+
+    .infos h5 {
+        font-size: 0.5em;
+    }
+
+    .infos p {
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+}
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 500px) and (max-width: 575.98px) {
+    .carousel {
+        padding: 80px 10px;
+    }
+
+    .text-categoria {
+        padding: 80px 40px;
+
+    }
+
+    .text-categoria h1 {
+        margin-bottom: 30px;
+        font-size: 1.3em;
+    }
+
+    .text-categoria h6 {
+        margin-bottom: 30px;
+        font-size: 1.1em;
+    }
+
+    .img-text img {
+        display: none;
+    }
+
+    .CategoTitle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .CategoTitle button {
+        cursor: pointer;
+
+        margin-right: 80px;
+        padding: 2px 1px;
+
+        width: 6%;
+        height: 12%;
+        border-radius: 50%;
+        outline: unset;
+
+        border: unset;
+        background-color: rgba(231, 231, 231, 0.418);
+        color: aliceblue;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CategoTitle span {
+
+        font-weight: 600;
+    }
+
+    .CategoBox h4 {
+        margin: 0px;
+        width: 0px;
+    }
+
+    .CategoBox .peq2 {
+        height: 240px;
+        transition: 0.8s;
+        overflow: hidden;
+
+    }
+
+    .CategoBox .peq {
+        transition: 0.8s;
+
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .CategoBox h4,
+    .BuscaBox h4 {
+        font-size: 1.05em;
+    }
+
+    .aside {
+
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .BuscaBox {
+        text-align: center;
+    }
+
+    .BuscaBox input {
+        padding: 5px 0px;
+        font-size: 0.65em;
+        font-weight: 600;
+    }
+
+    .BuscaBox button {
+        font-size: 0.7em;
+        padding: 2px;
+    }
+
+    .BuscaBox {
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+    }
+
+    hr {
+        margin: 8px 0px;
+    }
+
+
+
+
+
+    .produtos .produto-info p {
+        font-size: 0.85em;
+        font-weight: 600;
+    }
+
+    .produtos .produto-info h5 {
+        font-size: 1.2em;
+    }
+
+
+    .produtos img {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .produtos {
+        margin: 0px 1.75px 6px 1.75px;
+        height: 205px;
+        width: 32%;
+
+    }
+
+    .col-12 {
+        padding: 0px;
+    }
+
+    .produto-info-escondido {
+        padding: 18px 16px;
+    }
+
+    .produto-info-escondido h6 {
+        font-size: 1em;
+    }
+
+    .payments .buy {
+        height: 50%;
+        padding: 14px 0px;
+        margin: 0px;
+
+
+        font-size: 0.75em;
+        font-weight: 720;
+        text-transform: uppercase;
+
+    }
+
+    .buy a {
+        margin: 0px;
+        margin: 0px 6px;
+    }
+
+    .save {
+        font-size: 0.7em;
+
+        margin-left: 20%;
+        height: 70%;
+        width: 26px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 12px;
+        padding: 0px;
+
+    }
+
+    .infos h5 {
+        font-size: 0.5em;
+    }
+
+    .infos p {
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .text-categoria {
+        padding: 80px 40px;
+
+    }
+
+    .text-categoria h1 {
+        margin-bottom: 30px;
+        font-size: 1.6em;
+    }
+
+    .img-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-text img {
+        display: inline-block;
+        width: 90%;
+    }
+
+    .CategoTitle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .CategoTitle button {
+        cursor: pointer;
+
+        margin-right: 80px;
+        padding: 8px 1px;
+
+        width: 6%;
+        height: 14%;
+        border-radius: 50%;
+        outline: unset;
+
+        border: unset;
+        background-color: rgba(231, 231, 231, 0.418);
+        color: aliceblue;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CategoTitle span {
+
+        font-weight: 600;
+    }
+
+    .CategoBox .peq2 {
+
+        transition: 0.8s;
+        overflow: hidden;
+
+    }
+
+    .CategoBox .peq {
+        transition: 0.8s;
+
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .aside {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .BoxProdutos {
+        margin: 30px auto;
+    }
+
+
+
+
+    .produtos .produto-info p {
+        font-size: 0.95em;
+        font-weight: 600;
+    }
+
+    .produtos .produto-info h5 {
+        font-size: 1.3em;
+    }
+
+
+    .produtos img {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .produtos {
+        margin: 0px 1.75px 6px 1.75px;
+        height: 240px;
+        width: 32%;
+
+    }
+
+
+
+    .produto-info-escondido {
+        padding: 18px 16px;
+    }
+
+    .produto-info-escondido h6 {
+        font-size: 1em;
+    }
+
+    .payments .buy {
+        height: 65%;
+        padding: 14px 0px;
+        margin: 0px;
+
+
+        font-size: 0.8em;
+        font-weight: 720;
+        text-transform: uppercase;
+
+    }
+
+    .buy a {
+        margin: 0px;
+        margin: 0px 6px;
+    }
+
+    .save {
+        font-size: 0.85em;
+
+        margin-left: 20%;
+        height: 70%;
+        width: 34px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 12px;
+        padding: 0px;
+
+    }
+
+    .infos h5 {
+        font-size: 0.7em;
+    }
+
+    .infos p {
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+}
+
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .text-categoria {
+        padding: 80px 40px;
+
+    }
+
+    .text-categoria h1 {
+        margin-bottom: 30px;
+        font-size: 1.6em;
+    }
+
+    .img-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-text img {
+        display: inline-block;
+        width: 90%;
+    }
+
+
+
+    .aside .CategoBox {
+        font-size: 0.73em;
+        margin: 0px;
+    }
+
+    .aside {
+        margin-left: 0px;
+        padding: 14px;
+    }
+
+    .titulocatego {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        width: 100%;
+    }
+
+
+    .BuscaBox h4 {
+        font-size: 1.2em;
+    }
+
+    .BuscaBox input {
+        font-size: 0.7em;
+        font-weight: 700;
+        width: 70%;
+    }
+
+    .BuscaBox {
+        font-size: 0.8em;
+    }
+
+    .produtos {
+        height: 220px;
+    }
+
+    .produto-info-escondido {
+        padding: 18px 16px;
+    }
+
+    .produto-info-escondido h6 {
+        font-size: 1em;
+    }
+
+    .payments .buy {
+        height: 50%;
+        padding: 14px 4px;
+        margin: 0px;
+
+
+        font-size: 0.8em;
+        font-weight: 700;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+
+    }
+
+    .buy a {
+        margin: 0px;
+        margin: 0px 6px;
+    }
+
+    .save {
+        font-size: 0.7em;
+
+        margin-left: 20%;
+        height: 70%;
+        width: 26px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 12px;
+        padding: 0px;
+
+    }
+
+    .infos h5 {
+        font-size: 0.9em;
+    }
+
+    .infos p {
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+
+
+}
+
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .infos h5 {
+        font-size: 1.15em;
+    }
+
+    .aside {
+        margin-left: 0px;
+        padding: 14px;
+    }
+
+    .titulocatego {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .BuscaBox input {
+        font-size: 0.7em;
+        font-weight: 700;
+        width: 70%;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1281px) and (max-width:1699.98px) {
+    .aside h4 {
+        font-size: 1.9em;
+    }
+
+    .CategoLateral {
+        font-size: 1.2em;
+    }
+
+    .text-categoria h1 {
+        margin-bottom: 60px;
+        font-size: 2.2em;
+    }
+
+    .text-categoria h6 {
+        margin-bottom: 30px;
+        font-size: 1.25em;
+    }
+
+    .produto-info-escondido {
+        right: -300px;
+        opacity: 0;
+    }
+
+
+    .produto-info-escondido {
+        padding: 18px 16px;
+    }
+
+    .produto-info-escondido h6 {
+        font-size: 1.8em;
+    }
+
+    .payments .buy {
+        height: 60%;
+        padding: 20px 6px;
+        margin: 0px;
+
+
+        font-size: 1.1em;
+        font-weight: 700;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+
+    }
+
+    .buy a {
+        margin: 0px;
+        margin: 0px 6px;
+    }
+
+    .save {
+        font-size: 1.2em;
+
+        margin-left: 20%;
+        height: 70%;
+        width: 60px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 24px;
+        padding: 0px;
+
+    }
+
+    .infos h5 {
+        font-size: 1.4em;
+    }
+
+    .infos p {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    .produtos {
+        height: 360px;
+    }
+
+
+    .produto-info h5 {
+        font-size: 1.7em;
+    }
+
+    .produto-info p {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+}
+
+@media(min-width:1700px) and (max-width: 2400px) {
+    .text-categoria h1 {
+        margin-bottom: 80px;
+        font-size: 3.6em;
+    }
+
+    .text-categoria h6 {
+        margin-bottom: 30px;
+        font-size: 2em;
+    }
+
+    .img-text img {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .aside h4 {
+        font-size: 3em;
+    }
+
+    .CategoTitle {
+        margin-bottom: 60px;
+    }
+
+    .aside {
+        padding: 50px;
+    }
+
+    .CategoLateral {
+        font-size: 1.8em;
+    }
+
+    .CategoLateral:hover ul {
+        /*Esse faz o aparecer das categorias*/
+        height: 220px;
+    }
+
+
+    .produto-info-escondido {
+        right: -300px;
+        opacity: 0;
+    }
+
+
+    .produto-info-escondido {
+        padding: 30px 40px;
+    }
+
+    .produto-info-escondido h6 {
+        font-size: 3em;
+    }
+
+    .payments .buy {
+        height: 60%;
+        padding: 25px 28px;
+        margin: 0px;
+
+
+        font-size: 1.6em;
+        font-weight: 700;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+
+    }
+
+    .buy a {
+        margin: 0px;
+        margin: 0px 6px;
+    }
+
+    .save {
+        font-size: 2.4em;
+
+        margin-left: 20%;
+        height: 70%;
+        width: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 24px;
+        padding: 0px;
+
+    }
+
+    .infos h5 {
+        font-size: 2.4em;
+    }
+
+    .infos p {
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+
+    .produtos {
+        height: 450px;
+    }
+
+
+    .produto-info h5 {
+        font-size: 2.5em;
+    }
+
+    .produto-info p {
+        font-size: 1.9em;
+        font-weight: 600;
+    }
+
+    .produtos img {
+        width: 66%;
+    }
+
+}
+
+
+@media(min-width:2399.98px) and (max-width: 3100px) {
+
+    .text-categoria h1 {
+        margin-bottom: 80px;
+        font-size: 3.6em;
+    }
+
+    .text-categoria h6 {
+        margin-bottom: 30px;
+        font-size: 2em;
+    }
+
+    .img-text img {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .aside h4 {
+        font-size: 3.4em;
+    }
+
+    .CategoTitle {
+        margin-bottom: 60px;
+    }
+
+    .aside {
+        padding: 50px;
+    }
+
+    .CategoLateral {
+        font-size: 2em;
+    }
+
+    .CategoLateral:hover ul {
+        /*Esse faz o aparecer das categorias*/
+        height: 220px;
+    }
+
+    .BuscaBox input {
+        font-size: 1.5em;
+        font-weight: 600;
+        padding: 10px 0px;
+        width: 70%;
+    }
+
+    .BuscaBox button i {
+        font-size: 1.4em;
+        padding: 14px;
+    }
+
+    .BuscaBox h4 {
+        margin-bottom: 12px;
+        margin-top: 14px;
+    }
+
+
+
+
+
+    .produto-info-escondido {
+        right: -300px;
+        opacity: 0;
+    }
+
+
+    .produto-info-escondido {
+        padding: 30px 40px;
+    }
+
+    .produto-info-escondido h6 {
+        font-size: 3em;
+    }
+
+    .payments .buy {
+        height: 60%;
+        padding: 25px 28px;
+        margin: 0px;
+
+
+        font-size: 1.6em;
+        font-weight: 700;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+
+    }
+
+    .buy a {
+        margin: 0px;
+        margin: 0px 6px;
+    }
+
+    .save {
+        font-size: 2.4em;
+
+        margin-left: 20%;
+        height: 70%;
+        width: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 24px;
+        padding: 0px;
+
+    }
+
+    .infos h5 {
+        font-size: 2.4em;
+    }
+
+    .infos p {
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+
+    .produtos {
+        height: 560px;
+    }
+
+
+    .produto-info h5 {
+        font-size: 2.5em;
+    }
+
+    .produto-info p {
+        font-size: 1.9em;
+        font-weight: 600;
+    }
+
+    .produtos img {
+        width: 72%;
+    }
+}
